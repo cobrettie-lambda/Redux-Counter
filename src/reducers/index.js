@@ -17,7 +17,7 @@ export default (state = initialState, action) => {
       };
     case DECREMENT:
       return {
-        count: state.count = action.payload
+        count: state.count - action.payload
       };
     default:
       return state;
